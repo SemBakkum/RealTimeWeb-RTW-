@@ -1,0 +1,11 @@
+<template name="Favorites">
+    
+    
+    <div class="favList">
+    <h1>Your <span class="fColor">Fucking</span> Favorites</h1>
+    {{#each city in list}}
+        <a href="/favorites/{{city}}" class="fav">{{city}}</a>
+    {{/each}}
+    </div>
+       
+</template>
